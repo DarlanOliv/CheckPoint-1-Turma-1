@@ -1,0 +1,25 @@
+{
+  "name": "checkpoint-1-turma-1",
+  "version": "1.0.0",
+  "description": "projeto checkpoint javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarlanOliv/CheckPoint-1-Turma-1.git"
+  },
+  "keywords": [
+    "checkpoint-1"
+  ],
+  "author": "Darlan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarlanOliv/CheckPoint-1-Turma-1/issues"
+  },
+  "homepage": "https://github.com/DarlanOliv/CheckPoint-1-Turma-1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
