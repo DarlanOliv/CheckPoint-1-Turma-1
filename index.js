@@ -3,7 +3,7 @@ console.log(".....Pipoca");
 console.log(".....Macarrao");
 console.log(".....Carne");
 console.log(".....Feijao");
-console.log(".....Brigadeiro");
+console.log(".....Batata Quente");
 console.log("...........................");
 
 let readlineSync = require('readline-sync');
