@@ -1,6 +1,6 @@
 console.log("............Escolha o Prato");
 console.log(".....Pipoca");
-console.log(".....Macarrao");
+console.log(".....Frango");
 console.log(".....Carne");
 console.log(".....Feijao");
 console.log(".....Batata Frita");
@@ -15,9 +15,9 @@ switch (comida) {
         var tempo = readlineSync.questionInt("Informe o Tempo de preparo..." + " ");
           pipoca(tempo);
         break;
-    case "macarrao" :
+    case "frango" :
         var tempo = readlineSync.questionInt("Informe o Tempo de preparo..." + " ");    
-          macarrao(tempo);
+          frango(tempo);
         break; 
     case "carne" :
         var tempo = readlineSync.questionInt("Informe o Tempo de preparo..." + " ");    
@@ -57,12 +57,12 @@ function pipoca(tempo){
     }
 }
 
-function macarrao(tempo){
+function frango(tempo){
     if (tempo < 8) {
         console.log("tempo insuficiente");
     }else{
         if (tempo === 8) {
-            console.log("espere o tempo padrão para macarrao.....");
+            console.log("espere o tempo padrão para frango.....");
             console.log("Seu Prato ponto bom apetite!!!");
         }else{          
             if ((tempo > 8) && (tempo <= 16)) {
